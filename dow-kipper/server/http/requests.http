@@ -1,0 +1,67 @@
+@urlSecurity = http://localhost:8080/security
+@urlCollection = http://localhost:8080/api/collection
+
+@urlItem = http://localhost:8080/api/item
+
+@urlCoIt = http://localhost:8080/api/collection/item
+
+@token = eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb2xsZWN0aW9ucyIsInN1YiI6ImlhbkB0ZXN0LmNvbSIsImFwcF91c2VyX2lkIjoxLCJhdXRob3JpdGllcyI6IlVTRVIiLCJleHAiOjE2ODg1NzAwOTd9.YnBKyhM33FOPN43Q1CNpmqd8IaciOcyZ3PDoZcAdhig
+
+###
+## Create a user
+
+POST {{urlSecurity}}/create-account
+Content-Type: application/json
+
+{
+    "username": "ian@test.com",
+    "password": "@password1"
+}
+
+###
+## Create token
+
+POST {{urlSecurity}}/authenticate
+Content-Type: application/json
+
+{
+    "username": "ian@test.com",
+    "password": "@password1"
+} 
+
+###
+## Create a collection
+POST {{urlCollection}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "name": "Test"
+}
+
+###
+## Create an item
+POST {{urlItem}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "name": "TestItemTwo",
+    "value": "10.00",
+    "grade": "EIGHT"
+}
+
+###
+## Add Item to Collection
+
+POST {{urlCoIt}}/1/3
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "isSold": "false",
+    "listedPrice": "12.00"
+}
+
+
+
