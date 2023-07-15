@@ -1,4 +1,4 @@
-# Capstone Proposal Collectors App: DOW KIPPER
+# DOW KIPPER
 
 # Problem Statement:
 > There is no app catered towards Collectors to accurately track and log the value of their collection
@@ -20,7 +20,7 @@
 
 ### 2. Learning Goals:
 > TypeScript 
-> Tailwind(Ian, Tim)
+> Tailwind
 > Stretch Goal: AWS deployment 
 
 ### Stretch Goal: 
