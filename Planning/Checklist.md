@@ -1,4 +1,4 @@
-# DOW KIPPER - Capstone Checklist
+# DOW KIPPER
 
 ## Tasks
 
