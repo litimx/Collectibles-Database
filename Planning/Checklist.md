@@ -1,18 +1,14 @@
 # DOW KIPPER - Capstone Checklist
 
-Developers: Ian Ouyoung, Xi-Ping Chen, Tim Li
-
-## Learning Goal: TYPESCRIPT
-
 ## Tasks
 
-* [ ] Build a full stack java project, including backend, sql data, front end configuration (react & fetch API). 
+* [X] Build a full stack java project, including backend, sql data, front end configuration (react & fetch API). 
 On a high level, this project catalogs a user's hobby items based off of eBay completed item prices and calculates the "hobby portfolio" value. 
   * [x] Create a detailed proposal checklist
 * [x] Review the requirements 
 * [x] Identify any research to be done
-* [ ] Complete backend and implemnt by Tuesday
-* [ ] TypeScript has a conversion command
+* [X] Complete backend and implemnt by Tuesday
+* [X] TypeScript has a conversion command
 
 
 ### Part 1: Project Setup, Database Design, and PriceCharting API (Est 8 Hours)
@@ -120,15 +116,15 @@ On a high level, this project catalogs a user's hobby items based off of eBay co
   * [x] Settings
   * [x] Submit Form
   * [x] Item Submit
-* [ ] Enable routing with React-Router-DOM (3 hours)
-  * [ ] Home
-  * [ ] Login
-  * [ ] Register
-  * [ ] Settings
-  * [ ] Category
-  * [ ] Collections
-  * [ ] Inventory
-  * [ ] User
+* [X] Enable routing with React-Router-DOM (3 hours)
+  * [X] Home
+  * [X] Login
+  * [X] Register
+  * [X] Settings
+  * [X] Category
+  * [X] Collections
+  * [X] Inventory
+  * [X] User
 * [x] Hero Component will have a carousel view of categories and items in cards (1 Hour) -      *Update Carousel*
 * [x] Footer component will either have individual card information or just a banner with p tag text (1 Hour)
 * [ ] Implement CRUD for the frontend (3 Hours)
@@ -138,15 +134,15 @@ On a high level, this project catalogs a user's hobby items based off of eBay co
 
 ### Part 6: Implement Component Logic (Est 20 Hours Total)
 
-* [ ] Implement logic in components
-  * [ ] Fetch data from backend (10 Hours)
-  * [ ] Handle user inputs (5 Hours)
-  * [ ] Ensure components can correctly fetch and display backend data (5 Hour)
+* [X] Implement logic in components
+  * [X] Fetch data from backend (10 Hours)
+  * [X] Handle user inputs (5 Hours)
+  * [X] Ensure components can correctly fetch and display backend data (5 Hour)
 
 ### Part 7: Routing and Navigation (Est 21 Hours Total)
 
-* [ ] Implement routing and navigation (20 Hours)
-* [ ] Test navigation (1 Hour)
+* [X] Implement routing and navigation (20 Hours)
+* [X] Test navigation (1 Hour)
 
 ## High-Level Requirements
 
