@@ -1,11 +1,11 @@
-# DOW KIPPER
+# DOW KIPPER (Collectibles Database)
 
 # Problem Statement:
 > There is no app catered towards Collectors to accurately track and log the value of their collection
 > Furthermore, current marketplace are not geared towards the buying, trading, and selling of collectibles
 
 ## Overiview:
-### 1. Store Collectible Items(Ex. Baseball Cards) from Users and log their values akin to a stock ticker
+Store Collectible Items(Ex. Baseball Cards) from Users and log their values akin to a stock ticker
 > Utilize an Ebay api to collect real time data to accurately reflect the value of the user's collectible
     > Use eBay's "findCompletedItems" operation in "Finding API"
     > Retrieve listings for completed auction/buy it now items  
@@ -17,11 +17,6 @@
     > Display the volume of trades for that collectible, demonstrates liquidity and volatily 
 
 > Limit the scope of collectibles to Baseball Cards, and one other cateogry if time permits
-
-### 2. Learning Goals:
-> TypeScript 
-> Tailwind
-> Stretch Goal: AWS deployment 
 
 ### Stretch Goal: 
 > Implement a peer to peer market place allowing users to trade or sell from their collection 
