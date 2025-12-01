@@ -35,3 +35,9 @@ We will create an app to catalog card/collectible values based off of online sol
 
 # Scenario:
 > Tom has a binder of baseball cards passed down from his grandfather. He is not a baseball card expert but wants to know what he has. Instead of manually finding the price of each item online or on a catalog, he can enter his cards into our app. This way, he is able to dynamically track the value of his card binder, add/remove cards as he builds his collection, and check back any time in the future to see how the value has changed over time
+
+##
+# Motivation
+# Quick Start
+# Usage
+# Contributing
